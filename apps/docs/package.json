@@ -17,17 +17,22 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
-    "@storybook/addon-actions": "^8.2.6",
-    "@storybook/addon-essentials": "^8.2.6",
-    "@storybook/addon-links": "^8.2.6",
-    "@storybook/react": "^8.2.6",
-    "@storybook/react-vite": "^8.2.6",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
-    "serve": "^14.2.1",
-    "storybook": "^8.2.6",
     "@repo/typescript-config": "*",
+    "@storybook/addon-actions": "^8.5.0-alpha.14",
+    "@storybook/addon-essentials": "^8.5.0-alpha.14",
+    "@storybook/addon-links": "^8.5.0-alpha.14",
+    "@storybook/experimental-addon-test": "^8.5.0-alpha.14",
+    "@storybook/react": "^8.5.0-alpha.14",
+    "@storybook/react-vite": "^8.5.0-alpha.14",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/browser": "^2.1.8",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^8.57.0",
+    "playwright": "^1.49.0",
+    "serve": "^14.2.1",
+    "storybook": "^8.5.0-alpha.14",
     "typescript": "5.5.4",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "vitest": "^2.1.8"
   }
 }
